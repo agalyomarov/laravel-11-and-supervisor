@@ -32,6 +32,10 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    // protected $attributes = [
+    //     'options' => '[]',
+    //     'delayed' => false,
+    // ];
     /**
      * Get the attributes that should be cast.
      *
